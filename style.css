@@ -1,19 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: #222222;
-  color: #DDDDDD
+  color: #0B0c0c;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .leyenda {
   font-size: 0.85rem;
+  color: #6c8b8c;
 }
 
+/* NAV */
+.nav-container {
+  background-color: #3d585a;
+  color: #f4f3ef;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+/* FORM */
 form {
   margin-top: 2em;
+  padding: 0;
 }
 
 input {
   display: block;
   margin: 0.5em 0 1em ;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+/* RESULT */
+
+.resultado {
+  color: #6c8b8c;
+  margin-top: 1em;
 }
 
 input::-webkit-outer-spin-button,
