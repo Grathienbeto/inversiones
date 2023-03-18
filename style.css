@@ -1,0 +1,23 @@
+body {
+  background-color: #222222;
+  color: #DDDDDD
+}
+
+.leyenda {
+  font-size: 0.85rem;
+}
+
+form {
+  margin-top: 2em;
+}
+
+input {
+  display: block;
+  margin: 0.5em 0 1em ;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
