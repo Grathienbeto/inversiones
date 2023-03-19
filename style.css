@@ -48,6 +48,24 @@ label {
   margin-top: 1em;
 }
 
+/* FOOTER */
+.footer-div {
+  color: #6c8b8c;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-div ul {
+  list-style: none;
+}
+
+.footer-div ul a{
+  color: #0B0c0c;
+  text-decoration: none;
+  
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
