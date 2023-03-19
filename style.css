@@ -22,9 +22,21 @@ body {
   padding: 0.5em;
 }
 
-nav h1 {
+ul {
   margin: 0;
+  list-style: none;
 }
+
+nav a {
+  color: #f4f3ef;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #e0f0f0;
+}
+
+
 
 /* FORM */
 form {
@@ -56,9 +68,7 @@ label {
   bottom: 0;
 }
 
-.footer-div ul {
-  list-style: none;
-}
+
 
 .footer-div ul a{
   color: #0B0c0c;
@@ -70,4 +80,10 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+/* NOTICIAS */
+
+.noticia p {
+  font-size: 1.25rem;
 }

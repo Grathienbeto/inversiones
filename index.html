@@ -25,19 +25,29 @@
     <title>Simulador Plazo Fijo</title>
   </head>
   <body>
+
     <!-- NAVBAR -->
     <div class="nav-container container-fluid">
-      <nav class="container">
-        <h1>Simulador Plazo</h1>
+      <nav class="container d-flex align-content-center justify-content-between">
+        <a class="navbar-brand" href="./index.html">Simulador Plazo</a>
+        <ul class="d-flex flex-wrap align-content-center">
+          <li><a href="./pages/noticias.html">Noticias</a></li>
+        </ul>
       </nav>
     </div>
 
-    <section class="container">
+    <section class="container" id="info">
+      <div class="d-flex justify-content-between">
+        <h3>Tasa Nominal Anual (TNA): 78%</h3>
+        <h3>Tasa Efectiva Anual (TEA): 113.2%</h3>
+      </div>
       <h3 id="interes">Rédito actual por mes: 6.41%</h3>
       <span class="leyenda"
         >((78% TNA / 365 días) * 30 días) * 100 = 6.41%</span
       >
+      
     </section>
+
 
     <div class="container">
       <form>
@@ -50,7 +60,7 @@
         <label for="cuenta">Dinero que ya tienes.</label>
         <input type="number" id="cuenta" name="cuenta" required />
 
-        <button type="submit" class="btn btn-primary">Calcular</button>
+        <button type="submit" class="btn btn-outline-dark">Calcular</button>
       </form>
     </div>
 
